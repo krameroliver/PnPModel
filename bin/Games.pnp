@@ -1,0 +1,7 @@
+package Games
+
+Entity Game{
+	fields{
+		Field GameName{Type STRING Length 255}
+	}
+}
