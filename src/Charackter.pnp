@@ -1,0 +1,11 @@
+package Games
+
+Entity Charackter{
+	fields{
+		Field CharackterName{Type STRING Length 255},
+		Field CharackterID{Type STRING Length 10 Key T},
+		Field CharackterSize{Type NUMBER Precision 10 Scale 2 },
+		Field CharackterAge {Type  NUMBER Precision 10 Scale 0 }
+		
+		}
+}

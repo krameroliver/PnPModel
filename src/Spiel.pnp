@@ -1,0 +1,11 @@
+package Spiele
+
+Entity Spiel{
+	fields{
+		Field GameName{Type STRING Length 255},
+		Field GameID{Type STRING Length 10 Key T},
+		Field CharackterID{Type NUMBER Precision 10 Scale 2 },
+		Field GameType{Type STRING Length 255 }
+	}
+	
+}
