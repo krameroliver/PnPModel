@@ -7,5 +7,7 @@ Entity Spiel{
 		Field CharackterID{Type NUMBER Precision 10 Scale 2 },
 		Field GameType{Type STRING Length 255 }
 	}
-	
+	relationships{
+		Relationship GameCharackter {to Games.Charackter}
+		}
 }

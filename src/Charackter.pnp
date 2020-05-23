@@ -6,6 +6,14 @@ Entity Charackter{
 		Field CharackterID{Type STRING Length 10 Key T},
 		Field CharackterSize{Type NUMBER Precision 10 Scale 2 },
 		Field CharackterAge {Type  NUMBER Precision 10 Scale 0 }
-		
+		}
+		includes { 
+			INCLUDE MAGIC {
+				fields {
+					Field MANA { Type NUMBER Precision 10 Scale 2}	,
+					Field MagicType{Type STRING Length 120}
+					
+				}		
+			}	
 		}
 }
